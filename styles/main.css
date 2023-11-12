@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lato:wght@300;400&family=Montserrat:wght@500&family=Playpen+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Lato:wght@300;400&family=Montserrat:wght@500&family=Playpen+Sans:wght@300&display=swap');
+
+body {
+    font-family: Comfortaa;
+    background-color: #FDF5E6
+}
+
+.calc {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px;
+    position: fixed;
+}
+
+.names {
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.headr {
+    font-size: 16px;
+}
+.headr:hover {
+    position: relative;
+    bottom: 5px;
+    color: gray;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 1490px;
+}
+section {
+    background-color: rgb(250 240 230);
+    border-radius: 10px;
+}
+article {
+    width: 900px;
+    padding: 5px;
+    background-color: rgb(255 228 181);
+    border-radius: 10px;
+}
+.namedzen {
+    font-size: 25px;
+}
+.namedzen:hover {
+    position: relative;
+    color: red;
+}
+
+.namestat {
+    font-size: 20px;
+}
+
+.podval {
+    padding-left: 500px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    color: gray;
+}
+a1 {   
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+a1:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+.prof {
+    display: flex;
+    flex-direction: row;
+}
+.prof1 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+.prof2 {
+    padding-left: 90px;
+}
+
+.users {
+    padding-left: 5px;
+    font-size: 17px;
+}
+
+.namekom {
+    font-size: 25px;
+}
+
+.komm {
+    background-color: rgb(250 240 230);
+    border: 1px solid black;
+    margin-right: 500px;
+    padding-left: 20px;
+    border-radius: 10px;
+    
+}
+
+li{
+    padding-left: -150px;
+    padding-right: 5px;
+}
+
+a {
+    color: black;   
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+a3 {
+    color: black;   
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+}
+a3:hover {
+    text-decoration: none;
+    color: red;
+}
+
+img {
+    border-radius: 5px;
+}
